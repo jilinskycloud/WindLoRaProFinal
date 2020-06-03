@@ -1,0 +1,82 @@
+import datetime
+readable = datetime.datetime.fromtimestamp(1588821577).isoformat()
+print(readable)
+exit()
+import datetime
+tt = time.strftime("%Y-%m-%d %H:%M:%S", 1588817554)
+import time
+tt = time.strftime("%Y-%m-%d %H:%M:%S", 1588817554)
+tt = time.strftime("%Y-%m-%d %H:%M:%S", "1588817554")
+clear
+import time
+ts = time.gmtime()
+ts
+print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
+exit()
+import time
+print(time.strftime('%Y-%m-%d-%H:%M:%S',time.localtime(time.time())))
+print(time.strftime('%Y-%m-%d-%H:%M:%S',1588817554))
+time.localtime(time.time())
+readable = time.ctime(1588760418)
+readable
+exit
+exit()
+a =1
+type(a)
+type(str(a))
+exit()
+import time
+time
+time.now()
+time.ctime()
+exit()
+import datetime
+import time
+datetime.datetime.strptime(time.ctime(), "%a %b %d %H:%M:%S %Y")
+datetime.datetime.strptime(time.ctime(), "%a-%b-%d %H:%M:%S %Y")
+exit()
+import urllib
+import urllib2
+import requests
+exit()
+import requests
+import urllib
+import urllib2
+ import http.client
+import http.client
+import http
+import io
+import mimetypes
+from urllib import request
+import uuid
+exit()
+from libs.poster.encode import multipart_encode, MultipartParam
+import requests
+exit()
+import time
+time.strftime('%X %x %Z')
+time.strftime('%X')
+exit()
+import socket
+exit()
+import psutil
+pids()
+pids
+psutil.pids()
+psutil.process_iter()
+psutil.process_iter
+psutil.process_iter()
+exit
+exit()
+import psutil
+psutil.pids()
+dir(psutil)
+exit()
+import psutil
+process = [proc for proc in psutil.process_iter() if proc.name == "heartbead.py"]
+process
+process = [proc for proc in psutil.process_iter() if proc.name == "heartbeat.py"]
+process
+process = [proc for proc in psutil.process_iter() if proc.name == "python3 /www/web/_netw/heartbeat.py"]
+process
+exit()

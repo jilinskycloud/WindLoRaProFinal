@@ -1,0 +1,44 @@
+{
+    "sensors_data": [
+        {
+            "hb_interval": "1",
+            "ST": "temperature",
+            "version": "001",
+            "sn_id": "42-3D",
+            "hb_api_address": "http://xy.cenwei.net:2980/api.php/admin/iot/hbMonitor",
+            "data_api_address": "http://xy.cenwei.net:2980/api.php/admin/iot/saveMonitor",
+            "data_interval": "4",
+            "gw_id": "SC-CC202004-002"
+        },
+        {
+            "hb_interval": "1",
+            "ST": "temperature",
+            "version": "001",
+            "sn_id": "43-FD",
+            "hb_api_address": "http://xy.cenwei.net:2980/api.php/admin/iot/hbMonitor",
+            "data_api_address": "http://xy.cenwei.net:2980/api.php/admin/iot/saveMonitor",
+            "data_interval": "4",
+            "gw_id": "SC-CC202004-002"
+        },
+        {
+            "hb_interval": "1",
+            "ST": "temperature",
+            "version": "001",
+            "sn_id": "41-B6",
+            "hb_api_address": "http://xy.cenwei.net:2980/api.php/admin/iot/hbMonitor",
+            "data_api_address": "http://xy.cenwei.net:2980/api.php/admin/iot/saveMonitor",
+            "data_interval": "4",
+            "gw_id": "SC-CC202004-002"
+        },
+        {
+            "sn_id": "43-F9",
+            "ST": "temperature",
+            "version": "666",
+            "hb_interval": "1",
+            "hb_api_address": "http://xy.cenwei.net:2980/api.php/admin/iot/hbMonitor",
+            "data_api_address": "http://xy.cenwei.net:2980/api.php/admin/iot/saveMonitor",
+            "data_interval": "30",
+            "gw_id": "SC-CC202004-002"
+        }
+    ]
+}

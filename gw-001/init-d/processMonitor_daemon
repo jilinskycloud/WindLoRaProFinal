@@ -1,0 +1,35 @@
+#! /bin/sh
+# /etc/init.d/processMonitor_daemon
+
+#
+### BEGIN INIT INFO
+# Provides:          processMonitor
+# Processname:       processMonitor
+# Required-Start:    
+# Required-Stop:     
+# Default-Start:     S 2
+# Default-Stop:      0 1 6
+# Short-Description: Flask , Router web interface 
+# Description:       Flask is an open source, A micro python web framework.
+#                    http://flask.com
+### END INIT INFO
+#exec 1>/tmp/processMonitor_daemon.log 2>&1
+
+case "$1" in
+  start)
+    echo "Starting Process Monitor"
+    # run application you want to start
+    python3 /www/web/_netw/ProcessMonitor.py &
+    ;;
+  stop)
+    echo "Stopping processMonitor_daemon"
+    # kill application you want to stop
+    kill $(ps aux | grep "python3 /www/web/_netw/ProcessMonitor.py" | grep -v grep | awk '{print $2}')
+    ;;
+  *)
+    echo "Usage: /etc/init.d/ProcessMonitor_daemon{start|stop}"
+    exit 1
+    ;;
+esac
+
+exit 0

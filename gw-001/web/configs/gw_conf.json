@@ -1,0 +1,16 @@
+{
+    "gw_data": [
+        {
+            "key": "",
+            "times": [
+                {
+                    "reboot": "03:00:00"
+                }
+            ],
+            "gw_id": "SC-CC202004-001",
+            "pdata_status": 1,
+            "system_time": 1591166910,
+            "hbeat_status": 1
+        }
+    ]
+}
